@@ -13,9 +13,15 @@
 
     <header>
       <div class="container">
-        <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        <a href="{{ site.url }}" class="title">./{{ site.title | default: site.github.repository_name }}</a>
-        <div class="description">{{ site.description | default: site.github.project_tagline }}</div>
+        <a href="{{ site.github.repository_url }}" class="btn btn-github">
+          <span class="icon"></span>View on GitHub
+        </a>
+        <a href="{{ site.url | relative_url }}" class="title">
+          ./{{ site.title | default: site.github.repository_name }}
+        </a>
+        <div class="description">
+          {{ site.description | default: site.github.project_tagline }}
+        </div>
       </div>
     </header>
 
