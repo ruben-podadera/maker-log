@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Hi!"
+date:   2018-02-04 15:33:01 +0100
+category: other
+---
+
+<h1>Welcome,</h1>
+
+This is a dummy test page to try a bit how does Jekyll work.
