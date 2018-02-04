@@ -9,7 +9,7 @@ title: Ruben's Maker Log
 <ul class="logs">
 {% for post in site.posts %}
     <li class="line">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         <span class="timestamp">{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</span>
         <span class="category">{{ post.category }}</span>
         <span class="text">{{ post.title }}</span>
