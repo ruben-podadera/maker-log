@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: 03
+title:  "Powered Structure"
+
+project_uid: etw
+
+need_tasks: etw-01, etw-02
+
+completed: false
+
+parts:
+  preparation: done
+  building:    todo
+  publishing:  todo
+---

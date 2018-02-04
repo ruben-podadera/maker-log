@@ -1,0 +1,15 @@
+---
+layout: task
+
+uid: 02
+title:  "Power supply"
+
+project_uid: etw
+
+completed: true
+
+parts:
+  preparation: done
+  building:    todo
+  publishing:  todo
+---

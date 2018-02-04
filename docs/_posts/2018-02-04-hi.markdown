@@ -2,7 +2,7 @@
 layout: post
 title:  "Hi!"
 date:   2018-02-04 15:33:01 +0100
-category: other
+project_uid:
 ---
 
 <h1>Welcome,</h1>

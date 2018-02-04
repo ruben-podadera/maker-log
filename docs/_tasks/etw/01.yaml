@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: 01
+title:  "Structure"
+
+project_uid: etw
+
+parts:
+  preparation: done
+  building:    todo
+  publishing:  todo
+
+completed: false
+
+presentation: Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi. De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus, quo erga nosmet ipsos, alteram, ut nostra in amicos benevolentia illorum erga nos benevolentiae pariter aequaliterque respondeat, tertiam, ut, quanti quisque se ipse facit, tanti fiat ab amicis.
+---

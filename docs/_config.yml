@@ -13,3 +13,9 @@ plugins:
   - jekyll-feed
 
 theme: jekyll-theme-hacker
+
+collections:
+  tasks:
+    output: true
+  projects:
+    output: true
