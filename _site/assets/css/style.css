@@ -77,3 +77,5 @@ table.ls td { padding: 0px 10px 0 0; margin: 0; white-space: nowrap; }
 .row { display: flex; align-items: center; margin: -10px; }
 .row .col { flex: 1; margin: 10px; }
 .row .col.x2 { flex: 2; }
+
+#disqus_thread { margin-top: 150px; }
