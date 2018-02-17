@@ -13,7 +13,9 @@ layout: default
     {{project.title}}, {{task.title}}
   {% endif %}
 </h1>
-
+<p>
+  <a href="{{ "/projects/" | append: project.uid | append :".html" | relative_url }}">Return to project page</a>
+</p>
 
 {{ content }}
 

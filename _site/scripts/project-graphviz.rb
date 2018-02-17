@@ -6,6 +6,10 @@ if ARGV.length == 0
 end
 
 $project_uid = ARGV[0]
+config = YAML.load_file("_config.yml")
+baseUrl = config["baseurl"]
+
+
 
 projects = Hash.new
 
@@ -81,7 +85,7 @@ projects.each do |puid, project|
 
   # declare all nodes
   project['tasks'].each do |task|
-    url = "/tasks/" + project['uid'] + "/" + task['uid'] + ".html"
+    url = baseUrl + "/tasks/" + project['uid'] + "/" + task['uid'] + ".html"
     puts "   %s_%s [label=%s, href=\"%s\"]" % [
       project['uid'],
       task['uid'],

@@ -38,7 +38,7 @@ completed: false
 
 <div class="row">
   <div class="col">
-    <img src="/assets/img/etw/01/4-back-structure-detail-2.jpg"
+    <img  src="{{ "/assets/img/etw/01/4-back-structure-detail-2.jpg" | relative_url }}"
         alt="Back view of French Clean Electronic Tool Wall" />
   </div>
   <div class="col x2">
@@ -61,7 +61,7 @@ completed: false
 
 <div class="row">
   <div class="col">
-    <img src="/assets/img/etw/01/5-wood cross section.png"
+    <img src="{{ "/assets/img/etw/01/5-wood cross section.png" | relative_url }}"
         alt="Cross section of a cleat" />
   </div>
   <div class="col">
@@ -71,7 +71,7 @@ completed: false
     </p>
   </div>
   <div class="col">
-    <img src="/assets/img/etw/01/6-wood section.png"
+    <img src="{{ "/assets/img/etw/01/6-wood section.png" | relative_url }}"
         alt="Section of a cleat, showing the hole" />
   </div>
 </div>

@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="node1" href="/tasks/etw/01.html"  alt="" coords="407,12,544,71"/>
-<area shape="rect" id="node3" href="/tasks/etw/03.html"  alt="" coords="249,125,387,197"/>
-<area shape="rect" id="node4" href="/tasks/etw/04.html"  alt="" coords="413,125,537,197"/>
-<area shape="rect" id="node2" href="/tasks/etw/02.html"  alt="" coords="245,5,383,77"/>
-<area shape="rect" id="node5" href="/tasks/etw/05.html"  alt="" coords="5,245,121,337"/>
-<area shape="rect" id="node6" href="/tasks/etw/06.html"  alt="" coords="146,262,314,321"/>
-<area shape="rect" id="node7" href="/tasks/etw/07.html"  alt="" coords="339,262,476,321"/>
-<area shape="rect" id="node8" href="/tasks/etw/08.html"  alt="" coords="501,255,610,327"/>
+<area shape="rect" id="node1" href="/maker-log/tasks/etw/02.html"  alt="" coords="247,5,384,77"/>
+<area shape="rect" id="node2" href="/maker-log/tasks/etw/03.html"  alt="" coords="249,125,387,197"/>
+<area shape="rect" id="node4" href="/maker-log/tasks/etw/05.html"  alt="" coords="5,245,121,337"/>
+<area shape="rect" id="node5" href="/maker-log/tasks/etw/06.html"  alt="" coords="146,262,314,321"/>
+<area shape="rect" id="node6" href="/maker-log/tasks/etw/07.html"  alt="" coords="339,262,476,321"/>
+<area shape="rect" id="node7" href="/maker-log/tasks/etw/08.html"  alt="" coords="501,255,610,327"/>
+<area shape="rect" id="node3" href="/maker-log/tasks/etw/04.html"  alt="" coords="415,125,539,197"/>
+<area shape="rect" id="node8" href="/maker-log/tasks/etw/01.html"  alt="" coords="408,12,545,71"/>
 </map>
