@@ -44,7 +44,7 @@ completed: false
   <div class="col x2">
     <p>
       The specificity of this project is that there will be
-      all <a href="/tasks/etw/03.html">electrical power along the Structure</a>.
+      all <a href="{{ "/tasks/etw/03.html" | relative_url }}">electrical power along the Structure</a>.
       So there will be some grooves and hollows in the wood as it can be seen from the
       back view (here aside).
     </p>
