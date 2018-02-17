@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/maker-log/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/maker-log/" rel="alternate" type="text/html" /><updated>2018-02-17T15:05:06+01:00</updated><id>http://localhost:4000/maker-log/</id><title type="html">Ruben’s Maker Log</title><subtitle>A blog about making things
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/maker-log/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/maker-log/" rel="alternate" type="text/html" /><updated>2018-02-17T15:29:34+01:00</updated><id>http://localhost:4000/maker-log/</id><title type="html">Ruben’s Maker Log</title><subtitle>A blog about making things
 </subtitle><entry><title type="html">Hello</title><link href="http://localhost:4000/maker-log/2018/02/04/hello.html" rel="alternate" type="text/html" title="Hello" /><published>2018-02-04T15:33:01+01:00</published><updated>2018-02-04T15:33:01+01:00</updated><id>http://localhost:4000/maker-log/2018/02/04/hello</id><content type="html" xml:base="http://localhost:4000/maker-log/2018/02/04/hello.html">&lt;h1&gt;Hello,&lt;/h1&gt;
 
 &lt;p&gt;
   Since I'm a kid I love to build things. But I barely keep a trace of what I've been doing.
 &lt;/p&gt;
 &lt;p&gt;
-  This place is here for that. Keeping a trace of what I've been doing. And it could be useful
-  for other people, its even better ;-).
+  This place is here for that. Keeping a trace of what I've been doing. And if it could be useful
+  for other people it will make me happier ;-).
 &lt;/p&gt;
 &lt;p&gt;
-  On the homepage, you can find the list of projects I will work on in 2018.
+  On the &lt;a href=&quot;/maker-log/&quot;&gt;homepage&lt;/a&gt;, you can find the list of projects I had/will work on.
 &lt;/p&gt;
 &lt;p&gt;
   Cheers, Ruben

@@ -41,22 +41,3 @@ title: Ruben's Maker Log
     </li>
 {% endfor %}
 </ul>
-
-<h2>ls -l /tasks</h2>
-<div>
-<span>total {{site.tasks | size }}</span>
-<table class="ls">
-{% assign tasks = site.tasks | sort: 'uid' %}
-{% for task in tasks  %}
-  <tr>
-    <td>{{task.uid}}</td>
-    <td>{{task.date | date: "%Y-%m-%d" }}</td>
-    <td>
-      <a href="{{ task.url | relative_url }}">
-        {{task.title}}
-      </a>
-    </td>
-  </tr>
-{% endfor %}
-</table>
-</div>
