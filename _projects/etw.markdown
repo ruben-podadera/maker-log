@@ -3,7 +3,7 @@ layout: project
 
 uid: etw
 title:  "Electronic Tools Wall"
-
+comments: true
 ---
 
 <h2>Presentation</h2>

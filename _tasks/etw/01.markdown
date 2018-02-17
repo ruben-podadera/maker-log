@@ -2,7 +2,7 @@
 layout: task
 
 uid: "01"
-title:  "Structure"
+title:  "Structure, Electronic Tool Wall"
 
 project_uid: etw
 
@@ -12,6 +12,7 @@ parts:
   published: false
 
 completed: false
+comments: true
 ---
 
 <h2>Design</h2>

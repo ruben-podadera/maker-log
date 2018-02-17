@@ -2,7 +2,8 @@
 layout: post
 title:  "Hello"
 date:   2018-02-04 15:33:01 +0100
-categories: jekyll update
+
+comments: true
 ---
 
 <h1>Hello,</h1>

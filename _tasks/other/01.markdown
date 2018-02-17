@@ -13,5 +13,5 @@ parts:
 
 completed: false
 
-presentation:
+comments: true
 ---

@@ -12,4 +12,6 @@ parts:
   preparation: false
   building:    false
   publishing:  false
+  
+comments: true
 ---
