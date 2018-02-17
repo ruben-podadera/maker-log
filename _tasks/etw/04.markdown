@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: "04"
+title:  "Tools holders"
+
+project_uid: etw
+
+need_tasks: ["01"]
+
+completed: false
+
+parts:
+  preparation: false
+  building:    false
+  publishing:  false
+---

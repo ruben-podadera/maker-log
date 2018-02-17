@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: "05"
+title:  "Lab Bench PSU"
+
+project_uid: etw
+
+need_tasks: ["03"]
+
+completed: false
+
+parts:
+  preparation: false
+  building:    false
+  publishing:  false
+---

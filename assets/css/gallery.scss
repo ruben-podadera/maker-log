@@ -1,0 +1,42 @@
+.gallery {
+
+  font-size: 0;
+
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  margin: 0 auto;
+
+  a {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 20%;
+    max-width: 25%;
+    margin: .5vw;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .gallery a {
+    width: 25%;
+    max-width: 33%;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .gallery a {
+    width: 40%;
+    max-width: 50%;
+  }
+}

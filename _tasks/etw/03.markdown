@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: "03"
+title:  "Powered Structure"
+
+project_uid: etw
+
+need_tasks: ["01", "02"]
+
+completed: false
+
+parts:
+  preparation: false
+  building:    false
+  publishing:  false
+---

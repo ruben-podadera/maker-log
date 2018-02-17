@@ -1,0 +1,22 @@
+{% assign images = "" | split: "," %}
+{% for image in site.static_files %}
+  {% if image.path contains image_path %}
+    {% assign images = images | push: image %}
+  {% endif %}
+{% endfor %}
+
+{% assign images_count = images | size %}
+{% if images_count > 0 %}
+<h2>Pictures</h2>
+<p>
+  <div class="gallery">
+  {% for image in site.static_files %}
+      {% if image.path contains image_path %}
+      <a href="{{ site.baseurl }}{{ image.path }}">
+        <img src="{{ site.baseurl }}{{ image.path }}" />
+      </a>
+      {% endif %}
+  {% endfor %}
+  </div>
+</p>
+{% endif %}

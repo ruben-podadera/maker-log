@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign project = site.projects | where: "uid", page.project_uid | first %}
+{% assign task = page %}
+
+
+
+<h1>
+  {% if page.h1 %}
+    {{ page.h1 }}
+  {% else %}
+    {{project.title}}, {{task.title}}
+  {% endif %}
+</h1>
+
+
+{{ content }}
+
+{% assign image_path = project.uid | append: "/" | append: task.uid %}
+{% include gallery.html image_path=image_path %}
+
+{% include graph.html project_name=project.uid %}

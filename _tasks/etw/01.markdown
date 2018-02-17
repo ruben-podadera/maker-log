@@ -1,0 +1,77 @@
+---
+layout: task
+
+uid: "01"
+title:  "Structure"
+
+project_uid: etw
+
+parts:
+  designed:  false
+  built:     false
+  published: false
+
+completed: false
+---
+
+<h2>Design</h2>
+
+<p>
+  The Electronic Tool Wall will be a
+  <a href="https://www.google.fr/search?q=french+cleat+shelf&tbm=isch">French cleat shelf</a>
+  designed specifically for electronic projects.
+</p>
+<p>
+  <img src="/assets/img/etw/01/2-after-with-screwdriver.jpg" alt="French Clean Electronic Tool Wall" />
+</p>
+
+<p>
+  It will :
+  <ul>
+    <li>Be roughly the same size as my screen : 80 x 34 cm (The design picture is
+  wrong).</li>
+    <li>Be made of 5 horizontal cleats</li>
+    <li>Have 2 metal rectangle tubes to hold the horizontal cleats.</li>
+    <li>Hang on the wall with 2 screws, from the metal tubes.</li>
+  </ul>
+</p>
+
+<div class="row">
+  <div class="col">
+    <img src="/assets/img/etw/01/4-back-structure-detail-2.jpg"
+        alt="Back view of French Clean Electronic Tool Wall" />
+  </div>
+  <div class="col x2">
+    <p>
+      The specificity of this project is that there will be
+      all <a href="/tasks/etw/03.html">electrical power along the Structure</a>.
+      So there will be some grooves and hollows in the wood as it can be seen from the
+      back view (here aside).
+    </p>
+    <p>
+      Each horizontal cleat will have 5 electrical plugs, thus 5 holes. This task does
+      not handle with electrical stuff but it should prepare for it while does the wood
+      work.
+    </p>
+    <p>
+      Additionally to the holes, there will be a groove all along the cleat to pass the cables.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <img src="/assets/img/etw/01/5-wood cross section.png"
+        alt="Cross section of a cleat" />
+  </div>
+  <div class="col">
+    <p>
+      Here you can see the cross section of one cleat the with its dimensions (left), and a cleat section
+      with the hole and the groove.
+    </p>
+  </div>
+  <div class="col">
+    <img src="/assets/img/etw/01/6-wood section.png"
+        alt="Section of a cleat, showing the hole" />
+  </div>
+</div>

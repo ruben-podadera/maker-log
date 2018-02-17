@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: "07"
+title:  "Lightning"
+
+project_uid: etw
+
+need_tasks: ["03"]
+
+completed: false
+
+parts:
+  preparation: false
+  building:    false
+  publishing:  false
+---

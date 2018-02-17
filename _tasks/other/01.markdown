@@ -1,0 +1,17 @@
+---
+layout: task
+
+uid: "01"
+title:  "DIY PCB"
+
+project_uid: other
+
+parts:
+  preparation: false
+  building:    false
+  publishing:  false
+
+completed: false
+
+presentation:
+---
