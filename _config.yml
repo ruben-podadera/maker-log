@@ -4,7 +4,7 @@ email: ruben.podadera@gmail.com
 description: |
   A blog about making things
 baseurl: "/maker-log" # the subpath of your site, e.g. /blog
-# url: "https://ruben-podadera.github.io"
+#url: "https://ruben-podadera.github.io"
 
 # Build settings
 markdown: kramdown
