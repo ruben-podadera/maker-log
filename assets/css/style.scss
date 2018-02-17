@@ -1,34 +1,42 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+ /* @import "{{ site.theme }}"; */
 @import "./gallery.scss";
+@import "./crt.scss";
+
+$primary-color: $console-color;
+$secondary-color: #fff;
+
+.container { width: 90%; max-width: 600px; margin: 0 auto; }
+img { max-width: 100%; }
 
 body {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 640px) {
   body {
-    font-size: 14px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 320px) {
   body {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
-#main_content {
-  h1 { font-size: 2em; }
-  h2 { font-size: 1.5em; }
-  h3 { font-size: 1.2em; }
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+h2, h3 {
+  color: $secondary-color;
 }
 
 
-$primary-color: #b5e853;
-$secondary-color: #888;
 
 .container {
       max-width: 1024px;
@@ -45,6 +53,10 @@ $secondary-color: #888;
 }
 
 header {
+  border-bottom: 3px $primary-color solid;
+  border-bottom-style: dotted;
+  padding-bottom: 5px;
+
   .title {
     color: $primary-color;
     text-decoration: none;

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Hello"
+date:   2018-02-04 15:33:01 +0100
+categories: jekyll update
+---
+
+<h1>Hello,</h1>
+
+<p>
+  Since I'm a kid I love to build things. But I barely keep a trace of what I've been doing.
+</p>
+<p>
+  This place is here for that. Keeping a trace of what I've been doing. And it could be useful
+  for other people, its even better ;-).
+</p>
+<p>
+  On the homepage, you can find the list of projects I will work on in 2018.
+</p>
+<p>
+  Cheers, Ruben
+</p>

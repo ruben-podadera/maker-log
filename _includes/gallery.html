@@ -12,7 +12,7 @@
   <div class="gallery">
   {% for image in site.static_files %}
       {% if image.path contains image_path %}
-      <a href="{{ site.baseurl }}{{ image.path }}">
+      <a class="no-effect" href="{{ site.baseurl }}{{ image.path }}">
         <img src="{{ site.baseurl }}{{ image.path }}" />
       </a>
       {% endif %}
