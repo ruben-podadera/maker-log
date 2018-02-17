@@ -4,8 +4,6 @@ layout: default
 {% assign project = site.projects | where: "uid", page.project_uid | first %}
 {% assign task = page %}
 
-
-
 <h1>
   {% if page.h1 %}
     {{ page.h1 }}
@@ -14,12 +12,16 @@ layout: default
   {% endif %}
 </h1>
 <p>
-  <a href="{{ "/projects/" | append: project.uid | append :".html" | relative_url }}">Return to project page</a>
+  {% include project_link.html %}
 </p>
 
 {{ content }}
 
 {% assign image_path = project.uid | append: "/" | append: task.uid %}
-{% include gallery.html image_path=image_path %}
+{% include gallery.html %}
 
-{% include graph.html project_name=project.uid %}
+<h2>{{project.title}} project workflow</h2>
+{% include graph.html %}
+<p>
+  {% include project_link.html %}
+</p>

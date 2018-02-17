@@ -5,14 +5,10 @@ layout: default
 {% assign tasks = site.tasks | where: "project_uid", project.uid %}
 
 <h1>{{project.title}}</h1>
-<h2>Tasks</h2>
-<p>
-  <img usemap="G" alt="Project tasks workflow"
-    src="{{"/assets/graphviz/" | append: project.uid | append :".svg" | relative_url}}" />
-  {% include graphviz/etw.map %}
-</p>
-<p>
-  {{ tasks | where: "completed", "true" | size }} task(s) completed out of {{ tasks | size }}.
-</p>
+<h2>Workflow</h2>
+{% include graph.html %}
 
 {{ content }}
+
+{% assign image_path = project.uid | append: "/" %}
+{% include gallery.html %}
