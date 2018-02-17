@@ -2,7 +2,7 @@
 layout: task
 
 uid: "01"
-title:  "Structure, Electronic Tool Wall"
+title:  "Structure"
 
 project_uid: etw
 
