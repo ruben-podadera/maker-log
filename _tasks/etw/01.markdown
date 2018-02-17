@@ -22,7 +22,7 @@ completed: false
   designed specifically for electronic projects.
 </p>
 <p>
-  <img src="/assets/img/etw/01/2-after-with-screwdriver.jpg" alt="French Clean Electronic Tool Wall" />
+  <img src="{{ "/assets/img/etw/01/2-after-with-screwdriver.jpg" | relative_url }}" alt="French Clean Electronic Tool Wall" />
 </p>
 
 <p>
